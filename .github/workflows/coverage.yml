@@ -32,9 +32,3 @@ jobs:
 
       - name: Show coverage report
         run: uv run coverage report
-
-      - name: Upload coverage artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: coverage-xml
-          path: coverage.xml
