@@ -297,9 +297,6 @@ requires-dist = [
     { name = "pytest-watch", specifier = ">=4.2.0" },
 ]
 
-[package.metadata.requires-dev]
-dev = []
-
 [[package]]
 name = "pytokens"
 version = "0.3.0"
