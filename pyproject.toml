@@ -10,8 +10,13 @@ dependencies = [
     "flake8>=7.3.0",
     "flake8-pyproject>=1.2.3",
     "pytest>=9.0.1",
+    "pytest-benchmark>=5.2.3",
     "pytest-cov>=7.0.0",
+    "pytest-randomly>=4.0.1",
+    "pytest-rerunfailures>=16.1",
+    "pytest-sugar>=1.1.1",
     "pytest-watch>=4.2.0",
+    "pytest-xdist>=3.8.0",
 ]
 
 [tool.black]
