@@ -7,8 +7,10 @@ requires-python = ">=3.13"
 dependencies = [
     "black>=25.11.0",
     "coverage>=7.11.3",
+    "fastapi[standard]>=0.121.2",
     "flake8>=7.3.0",
     "flake8-pyproject>=1.2.3",
+    "httpx>=0.28.1",
     "pytest>=9.0.1",
     "pytest-benchmark>=5.2.3",
     "pytest-cov>=7.0.0",
@@ -32,9 +34,11 @@ addopts = [
     ]
 
 testpaths = "tests"
+pythonpath = "src"
 
 markers = [
-        "smoke: subset of tests"
+    "smoke: subset of tests",
+    "api: api tests",
 ]
 
 

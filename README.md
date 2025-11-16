@@ -15,6 +15,7 @@ uv sync
 | command | purpose |
 | ------- | ------- |
 | `uv sync` | install dependencies in environment |
+| `uv run fastapi dev src/python_testing_project/main.py` | run development server on port :8000 |
 | `uv run pytest -vv` | run [pytest](https://docs.pytest.org/en/stable/) verbosely |
 | `uv run black .` | run [black](https://black.readthedocs.io/en/stable/index.html) code formatter |
 | `uv run pytest -cov` | run [pytest-cov](https://pytest-cov.readthedocs.io/en/latest/) for test coverage report |
